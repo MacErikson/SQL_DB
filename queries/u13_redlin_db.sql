@@ -36,16 +36,16 @@ CREATE TABLE Pflegearbeiten(
 );
 
 INSERT INTO Objekt (OID, Bezeichnung)
-VALUES (1, 'Rasenfläche Süd'),
-VALUES (2, 'Rosengarten'),
-VALUES (3, 'Tropenhaus');
+VALUES ('1', 'Rasenfläche Süd'),
+('2', 'Rosengarten'),
+('3', 'Tropenhaus');
 
 INSERT INTO Tätigkeiten (TID, Bezeichnung)
-VALUES (1, 'Rosenschnitt'),
-VALUES (2, 'Rasen mähen'),
-VALUES (3, 'Unkraut jäten');
+VALUES ('1', 'Rosenschnitt'),
+('2', 'Rasen mähen'),
+('3', 'Unkraut jäten');
 
 INSERT INTO Mitarbeiter (MID, Name, Vorname)
-VALUES (1, 'Rose','Ines'),
-VALUES (2, 'Baum','Jürgen'),
-VALUES (31, 'Holz','Walter');
+VALUES ('1', 'Rose','Ines'),
+('2', 'Baum','Jürgen'),
+('31', 'Holz','Walter');
